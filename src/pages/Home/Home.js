@@ -1,4 +1,4 @@
-import {React} from 'react';
+import React from 'react';
 import logo from "../../logo.svg";
 import "./Home.css";
 import Topbar from "../../components/Topbar";
