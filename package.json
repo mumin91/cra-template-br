@@ -28,6 +28,11 @@
   "bugs": {
     "url": "https://github.com/mumin91/cra-template-br/issues"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -45,7 +50,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public"
+    "copyFiles": "cp -a ./src/. template/src && cp -a ./public/. template/public",
+    "prepublishOnly": "npm copyFiles"
   },
   "eslintConfig": {
     "extends": [
