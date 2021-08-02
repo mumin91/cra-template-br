@@ -1,7 +1,33 @@
 {
   "name": "cra-template-br",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Muminur Rahman",
+  "license": "MIT",
+  "main": "template.json",
+  "description": "A quick start Create React App template with React Router and Reactstrap.",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template",
+    "react-router",
+    "react-router-dom",
+    "reactstrap",
+    "bootstrap"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mumin91/cra-template-br",
+    "directory": "/"
+  },
+  "bugs": {
+    "url": "https://github.com/mumin91/cra-template-br/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -18,7 +44,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public"
   },
   "eslintConfig": {
     "extends": [
