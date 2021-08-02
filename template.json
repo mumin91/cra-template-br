@@ -1,0 +1,9 @@
+{
+  "package": {
+    "dependencies": {
+      "bootstrap": "^5.0.2",
+      "reactstrap": "^8.9.0",
+      "react-router-dom": "^5.2.0"
+    }
+  }
+}
