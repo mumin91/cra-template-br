@@ -1,11 +1,11 @@
 {
   "name": "cra-template-br",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "author": "Muminur Rahman",
   "license": "MIT",
   "main": "template.json",
-  "description": "A quick start Create React App template with React Router and Reactstrap.",
+  "description": "A minimal quick start Create React App template with React Router and Reactstrap.",
   "keywords": [
     "react",
     "create-react-app",
