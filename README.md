@@ -29,3 +29,6 @@ run `npx create-react-app project-name br`
 
 # Motivation
 I usually use Bootstrap with Reactstrap and React-Router-DOM in projects. so whenever I create a project, I need to do these common tasks. So, I made this template so that I can start new projects on it. 
+
+# Issues
+If you find any issue, please create a GitHub issue.
